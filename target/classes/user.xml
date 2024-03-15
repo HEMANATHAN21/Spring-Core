@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+            http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context
+            http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+           
+           <context:component-scan base-package="useradhar"></context:component-scan>
+           <context:component-scan base-package="caeengine"></context:component-scan>
+            
+         <!--    <bean class="user.User" id="user">
+            	<constructor-arg name="id" value="1"></constructor-arg>
+            	<constructor-arg name="name" value="hemanathan"></constructor-arg>
+            	<constructor-arg name="contact" value="123456789"></constructor-arg>
+            </bean>
+            
+            <bean class="user.Adhar" id="adhar">
+            	<constructor-arg name="id" value="1" ></constructor-arg>
+            	<constructor-arg name="city" value="Chennai"></constructor-arg>
+            	<constructor-arg name="adharNumber" value="987654321" ></constructor-arg>
+            	<constructor-arg name="user" ref="user" ></constructor-arg>
+            </bean>
+            --> 
+            <!--  
+            <bean class="caeengine.Engine" id="engine">
+            	<constructor-arg name="engineHp" value="1000"></constructor-arg>
+            	<constructor-arg name="engineCylinderCount" value="6"></constructor-arg>
+            </bean>
+            
+            <bean class="caeengine.Car" id="car">
+            	<constructor-arg name="carNo" value="197230" ></constructor-arg>
+            	<constructor-arg name="carBrand" value="Honda"></constructor-arg>
+            	<constructor-arg name="carModelName" value="Civic" ></constructor-arg>
+            	<constructor-arg name="carPrice" value="1000000" ></constructor-arg>
+            	<constructor-arg name="carEngine" ref="engine" ></constructor-arg>
+            </bean>
+            -->
+
+</beans>
